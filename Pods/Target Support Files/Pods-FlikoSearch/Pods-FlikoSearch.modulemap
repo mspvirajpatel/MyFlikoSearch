@@ -1,0 +1,6 @@
+framework module Pods_FlikoSearch {
+  umbrella header "Pods-FlikoSearch-umbrella.h"
+
+  export *
+  module * { export * }
+}

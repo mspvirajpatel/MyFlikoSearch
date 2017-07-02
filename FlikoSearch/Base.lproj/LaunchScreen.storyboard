@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Eft-9g-Kaq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4td-VM-ZgP">
+            <objects>
+                <viewController id="Eft-9g-Kaq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8kp-WY-Vyb"/>
+                        <viewControllerLayoutGuide type="bottom" id="joc-Rw-Bsj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bxk-Ni-HxS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For Fliker Search demo only, written by: Viraj Patel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVf-bs-pFx">
+                                <rect key="frame" x="16.5" y="631" width="342.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flickr-logo" translatesAutoresizingMaskIntoConstraints="NO" id="chw-Ut-Hz3">
+                                <rect key="frame" x="87" y="286" width="201" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="8Z9-DA-I3Z"/>
+                                    <constraint firstAttribute="width" constant="201" id="dTl-lX-pRy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="chw-Ut-Hz3" firstAttribute="centerY" secondItem="bxk-Ni-HxS" secondAttribute="centerY" id="3h5-5r-73a"/>
+                            <constraint firstItem="chw-Ut-Hz3" firstAttribute="centerX" secondItem="AVf-bs-pFx" secondAttribute="centerX" id="F26-6R-fDA"/>
+                            <constraint firstAttribute="bottom" secondItem="AVf-bs-pFx" secondAttribute="bottom" constant="20" symbolic="YES" id="Ymf-ZR-CSJ"/>
+                            <constraint firstItem="AVf-bs-pFx" firstAttribute="trailing" secondItem="bxk-Ni-HxS" secondAttribute="trailingMargin" id="dfJ-uP-gkj"/>
+                            <constraint firstItem="AVf-bs-pFx" firstAttribute="leading" secondItem="bxk-Ni-HxS" secondAttribute="leadingMargin" id="fbw-oO-s9n"/>
+                            <constraint firstItem="AVf-bs-pFx" firstAttribute="centerX" secondItem="bxk-Ni-HxS" secondAttribute="centerX" id="gTK-ou-2Rf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NbM-CU-qwB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.399999999999999" y="373.76311844077964"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flickr-logo" width="591" height="180"/>
+    </resources>
+</document>
